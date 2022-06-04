@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.nopCommerce.user.Module_01_Register">
+        <methods>
+          <include name="TC_06_Confirm_Password_Does_Not_Match_Pw"/>
+          <include name="TC_01_Register_With_Empty_Data"/>
+          <include name="deleteAllFilesInReportNGScreenshot"/>
+          <include name="TC_03_Register_Successfully"/>
+          <include name="BeforeClass"/>
+          <include name="TC_02_Register_With_Invalid_Data"/>
+          <include name="afterClass"/>
+          <include name="TC_05_Register_With_Password_Less_Than_6"/>
+          <include name="TC_04_Register_With_Existing_Email"/>
+        </methods>
+      </class> <!-- com.nopCommerce.user.Module_01_Register -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

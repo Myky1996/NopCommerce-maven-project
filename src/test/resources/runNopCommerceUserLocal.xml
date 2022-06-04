@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NopCommerce">
+	<parameter name="envName" value="local" />
+	<parameter name="severName" value="testing" />
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="reportConfig.ExtentTestListener" />
+
+	</listeners>
+
+
+	<test name="Run on Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.nopCommerce.common.Common_01_Register_to_system" />
+			<class name="com.nopCommerce.user.Module_07_Order" />
+<!-- 			<class name="com.nopCommerce.user.Module_02_Login" />
+ -->		</classes>
+	</test>
+
+
+	<!-- <test name="Run on Firefox"> <parameter name = "browser" value ="firefox"/> 
+		<classes> <class name="com.nopCommerce.user.Module_07_Order"/> </classes> 
+		</test> -->
+
+</suite>
